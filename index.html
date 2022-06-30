@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+  <head>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <title>Web Studio</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h3>
+          <a href="" class="logo top"><span class="web">Web</span>Studio</a>
+        </h3>
+        <nav class="nav-section">
+          <ul class="menu">
+            <li class="menu-item active">
+              <a href="https://martadomzalska.github.io/goit-markup-hw-06-main/"
+                >Agencja</a
+              >
+            </li>
+            <li class="menu-item">
+              <a
+                href="https://martadomzalska.github.io/goit-markup-hw-06-main/portfolio.html"
+                >Portfolio
+              </a>
+            </li>
+            <li class="menu-item"><a href="Kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+        <div class="contact-section">
+          <a href="mailto:info@devstudio.com" class="mail">
+            <svg class="contact-section-mail-icon" width="16" height="12">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+
+          <a href="tel.:info@devstudio.com" class="tel">
+            <svg class="contact-section-tel-icon" width="10" height="16">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            +48 111 111 111</a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="background-pic">
+        <div class="container headline">
+          <h1 class="title">
+            EFEKTYWNE ROZWIĄZANIA<br />
+            DLA WASZEGO BIZNESU
+          </h1>
+          <button type="button" class="button" data-modal-open>
+            Zamów usługę
+          </button>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <ul class="text-section">
+            <li>
+              <div class="text-section-icon-background">
+                <svg class="text-section-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h4>LOREM IPSUM</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <div class="text-section-icon-background">
+                <svg class="text-section-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h4>LOREM IPSUM</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <div class="text-section-icon-background">
+                <svg class="text-section-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h4>LOREM IPSUM</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <div class="text-section-icon-background">
+                <svg class="text-section-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h4>LOREM IPSUM</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2 class="work">Czym się zajmujemy</h2>
+          <ul class="work-list">
+            <li class="work-list-element">
+              <img
+                src="https://raw.githubusercontent.com/martadomzalska/goit-markup-hw-01/main/images/hands.jpg"
+                alt="close up to a programer working at his desk office"
+                width="370"
+                height="294"
+              />
+              <div class="work-box">
+                <h4 class="work-text">Aplikacje komputerowe</h4>
+              </div>
+            </li>
+            <li class="work-list-element">
+              <img
+                src="https://raw.githubusercontent.com/martadomzalska/goit-markup-hw-01/main/images/phone.jpg"
+                alt="web ui designer is working on mobile phone"
+                width="370"
+                height="294"
+              />
+              <div class="work-box">
+                <h4 class="work-text">Aplikacje mobilne</h4>
+              </div>
+            </li>
+            <li class="work-list-element">
+              <img
+                src="https://raw.githubusercontent.com/martadomzalska/goit-markup-hw-01/main/images/tablet.jpg"
+                alt="web design with working colour selection on graphic tablet"
+                width="370"
+                height="294"
+              />
+              <div class="work-box">
+                <h4 class="work-text">Rozwiązania graficzne</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="our-team">
+        <div class="container">
+          <h2 class="about">Nasz zespół</h2>
+          <ul class="about-section">
+            <li class="about-section-item">
+              <img
+                src="https://raw.githubusercontent.com/martadomzalska/goit-markup-hw-01/main/images/man2.jpg"
+                alt="smiling man in a maroon shirt"
+                width="270"
+                height="260"
+              />
+              <div class="about-section-item-text">
+                <h4 class="about-section-item-name">John Doe</h4>
+                <p class="about-section-item-occupation">Product Designer</p>
+              </div>
+              <div>
+                <ul class="about-section-icons-list">
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </li>
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </li>
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </li>
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="about-section-item">
+              <img
+                src="https://raw.githubusercontent.com/martadomzalska/goit-markup-hw-01/main/images/woman.jpg"
+                alt="a smiling woman"
+                width="270"
+                height="260"
+              />
+              <div class="about-section-item-text">
+                <h4 class="about-section-item-name">John Doe</h4>
+                <p class="about-section-item-occupation">Frontend Delevoper</p>
+              </div>
+              <div>
+                <ul class="about-section-icons-list">
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </li>
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </li>
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </li>
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="about-section-item">
+              <img
+                src="https://raw.githubusercontent.com/martadomzalska/goit-markup-hw-01/main/images/man3.jpg"
+                alt="a smiling man in a light blue shirt"
+                width="270"
+                height="260"
+              />
+              <div class="about-section-item-text">
+                <h4 class="about-section-item-name">John Doe</h4>
+                <p class="about-section-item-occupation">Marketing</p>
+              </div>
+              <div>
+                <ul class="about-section-icons-list">
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </li>
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </li>
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </li>
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="about-section-item">
+              <img
+                src="https://raw.githubusercontent.com/martadomzalska/goit-markup-hw-01/main/images/man1.jpg"
+                alt="a man in a black t-shirt"
+                width="270"
+                height="260"
+              />
+              <div class="about-section-item-text">
+                <h4 class="about-section-item-name">John Doe</h4>
+                <p class="about-section-item-occupation">UI Designer</p>
+              </div>
+              <div>
+                <ul class="about-section-icons-list">
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </li>
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </li>
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </li>
+                  <li class="about-section-icon-background">
+                    <svg class="about-section-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2 class="clients">Nasi klienci</h2>
+          <ul class="clients-list">
+            <li>
+              <div class="clients-background">
+                <svg class="clients-icon" width="106" height="60.04">
+                  <use href="./images/icons.svg#icon-Logo"></use>
+                </svg>
+              </div>
+            </li>
+            <li>
+              <div class="clients-background">
+                <svg class="clients-icon" width="106" height="60.04">
+                  <use href="./images/icons.svg#icon-Logo-1"></use>
+                </svg>
+              </div>
+            </li>
+            <li>
+              <div class="clients-background">
+                <svg class="clients-icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo-2"></use>
+                </svg>
+              </div>
+            </li>
+            <li>
+              <div class="clients-background">
+                <svg class="clients-icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo-3"></use>
+                </svg>
+              </div>
+            </li>
+            <li>
+              <div class="clients-background">
+                <svg class="clients-icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo-4"></use>
+                </svg>
+              </div>
+            </li>
+            <li>
+              <div class="clients-background">
+                <svg class="clients-icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-Logo-6"></use>
+                </svg>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="background-one">
+      <div class="container lists">
+        <section>
+          <a href="https://webstudio.pl" class="logo bottom"
+            ><span class="web">Web</span> Studio</a
+          >
+          <div class="footer-text">
+            <address class="address">
+              m. Warszawa, Aleje Jerozolimskie 21
+            </address>
+            <a href="mailto:info@example.com" class="footer-mail"
+              >info@example.com</a
+            >
+            <a href="tel:+48111111111" class="footer-tel">+48 111 111 111</a>
+          </div>
+        </section>
+        <section class="join-us-list">
+          <h3 class="footer-headline">Dołącz do nas</h3>
+          <ul class="footer-icon-list">
+            <li class="footer-icon-background">
+              <svg class="footer-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram-1"></use>
+              </svg>
+            </li>
+            <li class="footer-icon-background">
+              <svg class="footer-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </li>
+            <li class="footer-icon-background">
+              <svg class="footer-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </li>
+            <li class="footer-icon-background">
+              <svg class="footer-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="newsletter-headline">Zapisz się do newslettera</h3>
+          <form
+            class="newsletter"
+            name="newsletter_form"
+            autocomplete="on"
+            novalidate
+          >
+            <label>
+              <input
+                class="newsletter-email"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="newsletter-btn" type="submit">
+              Zapisz się
+              <svg class="newsletter-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </section>
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+        <div class="modal-form-section">
+          <h2 class="modal-form-headline">
+            Zostaw swoje dane w formularzu poniżej
+          </h2>
+          <form
+            class="modal-form"
+            name="modal-form"
+            autocomplete="on"
+            novalidate
+          >
+            <label>
+              <span class="input-headline">Imie</span>
+              <input type="text" name="username" />
+              <svg class="input-icon" width="15" height="12">
+                <use href="./images/icons.svg#icon-Vector-1"></use>
+              </svg>
+            </label>
+
+            <label>
+              <span class="input-headline">Telefon</span>
+              <input type="tel" name="tel" />
+              <svg class="input-icon" width="15" height="12">
+                <use href="./images/icons.svg#icon-Vector-3"></use>
+              </svg>
+            </label>
+            <label>
+              <span class="input-headline">Email</span>
+              <input type="email" name="email" />
+              <svg class="input-icon" width="15" height="12">
+                <use href="./images/icons.svg#icon-Vector-2"></use>
+              </svg>
+            </label>
+            <label>
+              <span class="com-headline">Komentarz</span>
+              <textarea
+                class="comments-input"
+                name="comments"
+                placeholder="Wprowadź tekst"
+              ></textarea>
+            </label>
+
+            <input
+              class="modal-form-policy visually-hidden"
+              id="user-policy"
+              type="checkbox"
+              name="policy"
+            />
+            <label for="user-policy" class="modal-form-policy-text"
+              >Oświadczam iż akceptuję
+              <a class="modal-form-link" href="">Regulamin</a> i
+              <a class="modal-form-link" href="">Politykę Prywatności</a
+              >.</label
+            >
+            <button class="modal-form-btn" type="submit">Wyślij</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
